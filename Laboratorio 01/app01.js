@@ -12,6 +12,7 @@ app.post("/cadastro", (req, res) => {
         var result = vet[i].nota >= 5 ? "Você passou" : "Reprovou animal"
         console.log(`nome:${vet[i].nome} nota:${vet[i].nota} situação:${result}`)
     }
+    res.send("foi")
 });
 
 app.listen(3001, () => {
