@@ -1,0 +1,13 @@
+select * from tbl_clientes;	
+
+ALTER TABLE tbl_clientes ADD COLUMN sobrenome TEXT;
+/*ADD: ADICIONA UMA NOVA COLUNA NA TABELA*/
+
+UPDATE tbl_clientes SET sobrenome = 'Pereira' WHERE ID = 2;
+/*UPDADTE , SET: ADCICIONA UM VALOR EM UM DETERMINADO CAMPO*/
+
+ALTER TABLE tbl_clientes MODIFY COLUMN cpf BIGINT;
+/*MODIFY: ALTERA O TIPO DA COLUNA*/
+
+ALTER TABLE tbl_clientes DROP COLUMN sobrenome;
+/*DROP: APAGA UMA COLUNA*/
