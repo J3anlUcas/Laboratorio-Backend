@@ -1,0 +1,19 @@
+{
+  "name": "aula10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "apps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pablocoelho74/Backend-IESB-1-2024.git"
+  },
+  "author": "Pablo Coelho Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pablocoelho74/Backend-IESB-1-2024/issues"
+  },
+  "homepage": "https://github.com/Pablocoelho74/Backend-IESB-1-2024#readme"
+}
