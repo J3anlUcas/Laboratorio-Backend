@@ -10,4 +10,4 @@ app.use(route);
 
 app.listen(PORTA, () => {
     console.log(`Servidor iniciado na porta ${PORTA}!`);
-});
+})
