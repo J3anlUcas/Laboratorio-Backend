@@ -1,6 +1,5 @@
 const express = require('express')
 const route1 = express.Router();
-
 const cadCliente = require("./Controlles/cadCliente.js");
 const cadProduto = require('./Controlles/cadProduto.js');
 
